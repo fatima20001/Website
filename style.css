@@ -1,0 +1,327 @@
+body
+{
+    font-family: sans-serif ;
+    margin: 0;
+}
+
+.menu_bar
+{
+    width: 100%;
+    height: 100px;
+    /*background-color: black;*/
+    float: left;
+}
+
+.menu_bar a
+{
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu_bar a:hover 
+{
+    color: crimson;
+}
+
+.header
+{
+    width: 100%;
+    /*height: 700px;*/
+    height: auto;
+    float: left;
+    background-color: olivedrab;
+    background-image: url("True-Beauty-Fashion-Hwang-In-Yeop-Episodes-1-8.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.header h1
+{
+   margin-top: 100px;
+   color: darkturquoise;
+}
+
+.header h2
+{
+   margin-top: 30px;
+   color: darkorange;
+}
+
+.dramas
+{
+    width: 20%;
+    margin-top: 130px;
+    height: 150px;
+    float: left;
+    background-color:lightgrey;
+    margin-left: 10% ;
+    margin-bottom: 20% ;
+}
+
+#drama1
+{
+    margin-left: 10% ;
+}
+
+.dramas img 
+{
+    height: 300px ;
+}
+
+.gallery
+{
+   width: 100%;
+   float: left;
+   height: auto;
+   background-color: lightgrey;
+   margin-top: 20px;
+}
+
+.gallery h3
+{
+    text-align: center;
+    color: crimson;
+}
+
+.gallery p
+{
+    margin-left: 3%;
+    width: 90%;
+    text-align: justify;
+}
+
+.about
+{
+    width: 20%;
+   float: left;
+   background-color: lightgrey; 
+   margin-top: 20px;
+   margin-left: 4%;
+}
+
+.about p
+{
+    margin-left: 4%;
+    width: 95%;
+    text-align: justify;
+}
+
+.about h3
+{
+    text-align: center;
+    color: crimson;
+}
+
+.about img
+{
+    width: 100%;
+    height: 305px;
+}
+
+.Contact_Us
+{
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    float: left;
+    /*margin-bottom: 200px;*/
+}
+
+.form_div
+{
+    width: 40%;
+    height: 350px;
+    margin-left: 30%;
+    background-color: lightgrey;
+    border-radius: 10px;
+    float: left;
+    border: 1px solid white;
+    box-shadow: 0px 0px 6px 0px black;
+}
+
+.form_div h3
+{
+    text-align: center;
+    color: crimson;
+}
+.form_div form 
+{
+    width: 60%;
+    float: left;
+}
+
+.form_div form input
+{
+    width: 140%;
+    height: 22px;
+    margin-top: 15px;
+    margin-left: 10%;
+}
+
+.form_div form textarea
+{
+    width: 140%;
+    height: 130px;
+    margin-top: 15px;
+    margin-left: 10%;
+    border-radius: 6px;
+}
+
+.form_div form button
+{
+    width: 40%;
+    height: 28px;
+    margin-top: 15px;
+    margin-left: 10%;
+    background-color: crimson;
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+}
+
+.form_div form button:hover
+{
+    background-color: black;
+    animation: 5s;
+}
+
+.footer
+{
+    margin-top: 25px;
+    width: 100%;
+    float: left;
+    height: auto;
+    background-color: black;
+}
+
+.footer_part
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 25%;
+    /*height: 200px;*/
+    margin-left: 4%;
+    float: left;
+    font-size: 10pt;
+    /*background-color: silver;*/
+    color: white;
+}
+
+.footer_part h4
+{
+    color: white;
+    font-size: 12pt;
+}
+
+.footer_part h4 p
+{
+    text-align: justify;
+    color: crimson;
+    font-size: 5;
+}
+
+.footer_part a
+{
+    text-decoration: none;
+    margin-top: 15px;
+    color: white;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .header h1
+    {
+        font-size: 15pt;
+
+    }
+
+    .header h2
+    {
+        font-size: 13pt;
+
+    }
+
+    .dramas
+    {
+        width: 80%;
+        margin-left: 10%;
+        height: auto;
+    }
+
+    #dramas1
+    {
+        margin-left: 10%;
+    }
+
+    .gallery
+    {
+    margin-top: 25%;
+    width: 90%;
+    margin-left: 5%;
+    }
+
+    .gallery p
+    {
+    font-size: 12pt;
+    }
+
+    .about
+    {
+   /* margin-top: 25%;*/
+    width: 90%;
+    margin-left: 5%;
+    }
+
+    .about p
+    {
+    font-size: 12pt;
+    }
+
+    .form_div
+    {
+       width: 90%;
+       margin-left: 5%;
+    }
+
+     .footer_part
+     {
+        width: 90%;
+        margin-left: 5%;
+     }
+} 
+
+@media (min-width: 769px) and (max-width: 992px)
+    .header h1
+    {
+        font-size: 30pt;
+
+    }
+
+    .header h2
+    {
+        font-size: 25pt;
+
+    }
+
+} 
+
+/*p
+{
+    background-color: grey ;
+    color: white;
+}    
+
+#para1
+{
+    background-color: grey ;
+    color: white;
+}
+
+.about_us
+{
+    background-color: cyan;
+} */
